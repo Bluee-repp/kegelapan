@@ -6,6 +6,39 @@ body {
   color: #333;
 }
 
+/* Default Light Mode */
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode header {
+  background: #1e1e1e;
+}
+
+body.dark-mode nav a {
+  color: #f1f1f1;
+}
+
+#darkModeToggle {
+  margin-left: 15px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+body.dark-mode #darkModeToggle {
+  background: #333;
+  color: #f1f1f1;
+}
+
 header {
   background: #222;
   color: white;
